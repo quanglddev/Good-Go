@@ -23,8 +23,8 @@ class ViewController: UIViewController, iCarouselDataSource, iCarouselDelegate {
     var songLengths: [Double] = []
     var lyrics: [String] = []
     
-    var likes: [Bool] = []
-    var userSongIDs: [MPMediaEntityPersistentID] = []
+    var likes: [Bool] = []  //Manage likes
+    var userSongIDs: [MPMediaEntityPersistentID] = [] //Support above
     var savedSongIDs: [LikesArray] = []
     
     var playlists: [MPMediaItemCollection] = []
